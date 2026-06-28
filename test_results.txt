@@ -1,0 +1,24 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.13.2, pytest-9.0.3, pluggy-1.6.0 -- /Users/sameerdhanda/ai110-module1show-gameglitchinvestigator-starter/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/sameerdhanda/ai110-module1show-gameglitchinvestigator-starter
+plugins: anyio-4.13.0
+collecting ... collected 15 items
+
+tests/test_game_logic.py::test_winning_guess PASSED                      [  6%]
+tests/test_game_logic.py::test_guess_too_high PASSED                     [ 13%]
+tests/test_game_logic.py::test_guess_too_low PASSED                      [ 20%]
+tests/test_game_logic.py::test_ranges_per_difficulty PASSED              [ 26%]
+tests/test_game_logic.py::test_hard_is_not_easier_than_normal PASSED     [ 33%]
+tests/test_game_logic.py::test_unknown_difficulty_defaults_to_normal PASSED [ 40%]
+tests/test_game_logic.py::test_parse_valid_integer PASSED                [ 46%]
+tests/test_game_logic.py::test_parse_empty_is_rejected PASSED            [ 53%]
+tests/test_game_logic.py::test_parse_none_is_rejected PASSED             [ 60%]
+tests/test_game_logic.py::test_parse_non_number_is_rejected PASSED       [ 66%]
+tests/test_game_logic.py::test_parse_decimal_is_truncated PASSED         [ 73%]
+tests/test_game_logic.py::test_win_on_first_attempt_scores_100 PASSED    [ 80%]
+tests/test_game_logic.py::test_win_later_scores_less_but_never_below_10 PASSED [ 86%]
+tests/test_game_logic.py::test_wrong_guess_does_not_change_score PASSED  [ 93%]
+tests/test_game_logic.py::test_score_never_goes_negative_across_a_game PASSED [100%]
+
+============================== 15 passed in 0.01s ==============================
