@@ -65,8 +65,6 @@ limited number of attempts to guess it. After each guess the game gives a
 
 ## 📸 Demo Walkthrough
 
-Describe your fixed game in numbered steps so a reader can follow along without watching a video:
-
 1. Run `python -m streamlit run app.py` and open the app in the browser.
 2. Pick a difficulty in the sidebar (Easy `1–20`, Normal `1–100`, Hard `1–500`).
    The sidebar shows the range and how many attempts you get.
@@ -81,8 +79,6 @@ Describe your fixed game in numbered steps so a reader can follow along without 
 6. Click **New Game 🔁**. The game fully resets — new secret, score back to 0,
    status back to "playing" — and you can immediately play again (no more being
    stuck on the "Game over" screen).
-
-**Screenshot** *(optional)*: <!-- Insert a screenshot of your fixed, winning game here -->
 
 ## 🧪 Test Results
 
@@ -113,4 +109,6 @@ tests/test_game_logic.py::test_score_never_goes_negative_across_a_game PASSED [1
 
 ## 🚀 Stretch Features
 
-- [ ] [If you choose to complete Challenge 4, describe the Enhanced UI changes here — a screenshot is optional]
+None attempted for this submission. The core project (bug hunt, refactor into
+`logic_utils.py`, pytest coverage, and documentation) is complete; see
+`reflection.md` for the full debugging and AI-collaboration write-up.
